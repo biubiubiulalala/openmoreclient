@@ -152,9 +152,10 @@ namespace weixinduokai
 
         private void selectPath_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.FolderBrowserDialog folder = new System.Windows.Forms.FolderBrowserDialog();
+            FolderBrowserDialog folder = new FolderBrowserDialog();
 
             folder.Description = "提示：找到并选中 WeChat 文件夹然后点击确定即可";
+            folder.ShowNewFolderButton = false;  // 禁用新建文件夹按钮
             if (folder.ShowDialog() == DialogResult.OK)
             {
                 softInstallPath = folder.SelectedPath;

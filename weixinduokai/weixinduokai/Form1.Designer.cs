@@ -82,12 +82,14 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(42, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(469, 14);
             this.label2.TabIndex = 4;
-            this.label2.Text = "如果需要手动选择路径请点击下面按钮（支有自动获取失败才需要手动）：";
+            this.label2.Text = "如果需要手动选择路径请点击下面按钮（只有自动获取失败才需要手动）：";
             // 
             // Form1
             // 
